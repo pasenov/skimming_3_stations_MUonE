@@ -12,7 +12,7 @@ root -l -b -q 'runConvertMC.C("minbias6969.root")'
 
 Take the produced file MC ROOT file and run the macro that converts it to datalike format. Change the path in that macro. It is called runConvertMC.C
 
-compile.sh : change paths from ehess to pasenov and the folder of my FairMUonE installation
+compile.sh : change paths to the one corresponding to your username and the folder of your FairMUonE installation
 
 mkdir run_6969
 
