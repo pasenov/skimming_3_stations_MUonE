@@ -8,9 +8,9 @@ source /afs/cern.ch/work/p/pasenov/fairsoft/install/bin/FairRootConfig_forCondor
 OR:
 source /afs/cern.ch/work/p/pasenov/fairsoft/install/bin/FairRootConfig.sh
 
-root -l -b -q 'runConvertMC.C("minbias6969.root")'
+Take the produced MC ROOT file and run the macro that converts it to datalike format. Change the path in that macro. It is called runConvertMC.C.
 
-Take the produced file MC ROOT file and run the macro that converts it to datalike format. Change the path in that macro. It is called runConvertMC.C
+root -l -b -q 'runConvertMC.C("minbias6969.root")'
 
 compile.sh : change paths to the one corresponding to your username and the folder of your FairMUonE installation
 
